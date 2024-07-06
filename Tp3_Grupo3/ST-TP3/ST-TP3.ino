@@ -1,4 +1,5 @@
- #include <U8g2lib.h>
+//Grupo 3_Tp3 - Rafael Vazquez - Matias Schatzyki - Gabriel Mendelovich - Ezequiel Dodino 
+#include <U8g2lib.h>
 #include <Adafruit_Sensor.h>
 #include <DHT.h>
 #include <WiFi.h>
