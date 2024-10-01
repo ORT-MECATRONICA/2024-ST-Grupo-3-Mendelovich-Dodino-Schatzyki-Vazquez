@@ -5473,7 +5473,7 @@
 	)
 	(rectangle
 		(start 130.175 134.239)
-		(end 205.867 166.751)
+		(end 177.8 154.94)
 		(stroke
 			(width 0)
 			(type default)
@@ -5718,29 +5718,7 @@
 	)
 	(global_label "BOT_B"
 		(shape input)
-		(at 91.694 55.118 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0770f756-0137-44cc-8863-6fec79c86883")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.4849 55.118 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BUZZER"
-		(shape input)
-		(at 53.594 47.498 180)
+		(at 53.594 57.658 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5748,14 +5726,36 @@
 			)
 			(justify right)
 		)
-		(uuid "0c233e26-8134-49ea-8dfb-195245562350")
+		(uuid "0770f756-0137-44cc-8863-6fec79c86883")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 43.1703 47.498 0)
+			(at 44.8031 57.658 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BUZZER"
+		(shape input)
+		(at 91.694 65.278 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0c233e26-8134-49ea-8dfb-195245562350")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.1177 65.278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5850,7 +5850,7 @@
 	)
 	(global_label "LED-A2"
 		(shape input)
-		(at 53.594 57.658 180)
+		(at 53.594 39.878 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5860,7 +5860,7 @@
 		)
 		(uuid "29ebb9c3-0969-4984-a5da-a8b52befdeb0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 43.2912 57.658 0)
+			(at 43.2912 39.878 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5936,28 +5936,6 @@
 			)
 		)
 	)
-	(global_label "LED-B1"
-		(shape input)
-		(at 53.594 39.878 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "31e414b7-1841-4081-91e3-572fb54becb9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 43.1098 39.878 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SDA"
 		(shape input)
 		(at 169.799 146.05 0)
@@ -5982,7 +5960,7 @@
 	)
 	(global_label "LED-B2"
 		(shape input)
-		(at 53.594 44.958 180)
+		(at 53.594 60.198 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5992,7 +5970,7 @@
 		)
 		(uuid "435b73e9-4745-4a45-8682-f46f914e3b6e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 43.1098 44.958 0)
+			(at 43.1098 60.198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6136,22 +6114,22 @@
 	)
 	(global_label "RELE_B"
 		(shape input)
-		(at 91.694 60.198 0)
+		(at 53.594 47.498 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "8b9afa2f-bddd-4ef8-82f0-50225b11396e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.5129 60.198 0)
+			(at 43.7751 47.498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6200,31 +6178,53 @@
 			)
 		)
 	)
-	(global_label "RELE_A"
+	(global_label "LED-B1"
 		(shape input)
-		(at 91.694 57.658 0)
+		(at 53.594 44.958 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "a7dd79f6-917b-4407-b54d-5b22c9b13ef3")
+		(uuid "a124feca-aec8-4f17-be5f-c2b26ca5c5be")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.3315 57.658 0)
+			(at 43.1098 44.958 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RELE_A"
+		(shape input)
+		(at 53.594 65.278 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a7dd79f6-917b-4407-b54d-5b22c9b13ef3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 43.9565 65.278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "LED-A1"
 		(shape input)
-		(at 53.594 37.338 180)
+		(at 53.594 62.738 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6234,7 +6234,7 @@
 		)
 		(uuid "a8399984-56c9-465b-9eae-e0ca4df9495d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 43.2912 37.338 0)
+			(at 43.2912 62.738 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6246,7 +6246,7 @@
 	)
 	(global_label "PUERTA"
 		(shape input)
-		(at 91.694 44.958 0)
+		(at 91.694 62.738 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6256,7 +6256,7 @@
 		)
 		(uuid "cca43b2b-2a71-4a0a-970d-42fb5cd3ff67")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.7549 44.958 0)
+			(at 101.7549 62.738 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7185,7 +7185,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 169.799 140.97 90)
+		(at 169.799 143.51 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7194,7 +7194,7 @@
 		(fields_autoplaced yes)
 		(uuid "294ca49b-01b9-46a4-867a-a85a36258416")
 		(property "Reference" "#PWR035"
-			(at 176.149 140.97 0)
+			(at 176.149 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7203,7 +7203,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 173.482 140.97 90)
+			(at 173.482 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7212,7 +7212,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 169.799 140.97 0)
+			(at 169.799 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7221,7 +7221,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 169.799 140.97 0)
+			(at 169.799 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7230,7 +7230,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 169.799 140.97 0)
+			(at 169.799 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7392,7 +7392,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 169.799 143.51 270)
+		(at 169.799 140.97 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7401,7 +7401,7 @@
 		(fields_autoplaced yes)
 		(uuid "35e780de-c778-4ad7-a3f6-d8fbc62ba862")
 		(property "Reference" "#PWR036"
-			(at 165.989 143.51 0)
+			(at 165.989 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7410,7 +7410,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 173.482 143.51 90)
+			(at 173.482 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7419,7 +7419,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 169.799 143.51 0)
+			(at 169.799 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7428,7 +7428,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 169.799 143.51 0)
+			(at 169.799 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7437,7 +7437,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 169.799 143.51 0)
+			(at 169.799 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7483,7 +7483,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
 			(at 26.797 59.817 0)
 			(effects
 				(font
@@ -10073,7 +10073,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
 			(at 27.051 46.609 0)
 			(effects
 				(font
@@ -11659,7 +11659,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
 			(at 27.051 40.513 0)
 			(effects
 				(font
@@ -12431,7 +12431,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
 			(at 26.543 66.421 0)
 			(effects
 				(font
