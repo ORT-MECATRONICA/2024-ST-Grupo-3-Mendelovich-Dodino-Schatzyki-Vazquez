@@ -6004,22 +6004,22 @@
 	)
 	(global_label "BOT_A"
 		(shape input)
-		(at 91.694 42.418 0)
+		(at 53.594 42.418 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "5eb4c553-9032-43e5-8e58-9561f96a889e")
+		(uuid "5ebb3054-617f-4a8f-814c-b5cacb9bdd06")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.3035 42.418 0)
+			(at 44.9845 42.418 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6200,28 +6200,6 @@
 			)
 		)
 	)
-	(global_label "RELE_A"
-		(shape input)
-		(at 53.594 65.278 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a7dd79f6-917b-4407-b54d-5b22c9b13ef3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 43.9565 65.278 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "LED-A1"
 		(shape input)
 		(at 53.594 62.738 180)
@@ -6350,6 +6328,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RELE_A"
+		(shape input)
+		(at 53.594 57.658 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f4335aec-6638-4dc0-af05-1498e70174a0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 43.9565 57.658 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
